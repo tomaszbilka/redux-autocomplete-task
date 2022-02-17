@@ -1,0 +1,33 @@
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+form {
+  margin: 10px;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  padding: 10px;
+}
+
+input:active {
+  border: 2px solid red;
+  color: green;
+}
+
+button {
+  background-color: DodgerBlue;
+  border: none;
+  color: #fff;
+  height: 40px;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  cursor: not-allowed;
+}
